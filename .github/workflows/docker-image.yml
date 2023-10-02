@@ -29,3 +29,10 @@ jobs:
           context: .
           push: true
           tags: stephenc01/php_docker_custom:latest
+      -
+        name: Build and push 2
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: stephenc01/php_docker_custom:php5-modules
