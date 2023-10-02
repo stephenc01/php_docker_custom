@@ -37,3 +37,12 @@ jobs:
           file: ./latest/Dockerfile
           push: true
           tags: stephenc01/php_docker_custom:latest-modules
+      -
+        name: Build and push php 8
+        uses: docker/build-push-action@v4
+        with:
+          context: ./php8.0
+          file: ./php8.0/Dockerfile
+          push: true
+          tags: stephenc01/php_docker_custom:php8.0-modules
+
