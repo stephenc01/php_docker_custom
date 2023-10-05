@@ -26,17 +26,18 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: .
+          context: ./php5.6
+          file: ./php5.6/Dockerfile
           push: true
           tags: stephenc01/php_docker_custom:latest, stephenc01/php_docker_custom:php5-modules
       -
         name: Build and push latest
         uses: docker/build-push-action@v4
         with:
-          context: ./latest
-          file: ./latest/Dockerfile
+          context: ./php8.1
+          file: ./php8.1/Dockerfile
           push: true
-          tags: stephenc01/php_docker_custom:latest-modules
+          tags: stephenc01/php_docker_custom:latest-modules, stephenc01/php_docker_custom:php8.1-modules
       -
         name: Build and push php 8
         uses: docker/build-push-action@v4
