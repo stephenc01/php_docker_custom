@@ -22,12 +22,14 @@ The repository contains Dockerfiles for the following PHP configurations:
 - **Base Image**: `php:8.0.30-apache`
 - **Installed PHP Extension**: 
   - mysqli
+  - pdo_mysql
 
 ### Latest Stable PHP with Apache
 
 - **Base Image**: `php:apache`
 - **Installed PHP Extension**: 
   - mysqli
+  - pdo_mysql
 
 ## Usage
 
