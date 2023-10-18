@@ -16,6 +16,8 @@ The repository contains Dockerfiles for the following PHP configurations:
   - mysqli
   - mbstring
   - fileinfo
+- **Installed Apache Extensions**:
+  - remoteip
 
 ### PHP 8.0.30 with Apache
 
@@ -23,6 +25,8 @@ The repository contains Dockerfiles for the following PHP configurations:
 - **Installed PHP Extension**: 
   - mysqli
   - pdo_mysql
+- **Installed Apache Extensions**:
+  - remoteip
 
 ### Latest Stable PHP with Apache
 
@@ -30,6 +34,8 @@ The repository contains Dockerfiles for the following PHP configurations:
 - **Installed PHP Extension**: 
   - mysqli
   - pdo_mysql
+- **Installed Apache Extensions**:
+  - remoteip
 
 ## Usage
 
