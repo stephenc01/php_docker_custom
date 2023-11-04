@@ -1,6 +1,6 @@
 # PHP Docker Custom Images Repository
 
-This repository contains custom Docker images for various PHP versions. The images are built and pushed to Docker Hub using GitHub Actions. This was created just for ease of use.
+This repository contains custom Docker images for various PHP versions with apache. The images are built and pushed to Docker Hub using GitHub Actions. This was created just for ease of use.
 
 ## Docker Images
 
@@ -48,10 +48,10 @@ docker pull stephenc01/php_docker_custom:php5-modules
 # For PHP 8.0
 docker pull stephenc01/php_docker_custom:php8.0-modules
 
-# For Latest Stable PHP
+# For PHP 8.1
 docker pull stephenc01/php_docker_custom:latest-modules
 ```
 
 ## Issues
 - Any issues report to the upstream projects.
-- If you need addtional PHP modules, open up an issue and I will add it.
+- If you need addtional PHP modules or a differnt version, open up an issue and I will add it.
