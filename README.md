@@ -55,3 +55,5 @@ docker pull stephenc01/php_docker_custom:latest-modules
 ## Issues
 - Any issues report to the upstream projects.
 - If you need addtional PHP modules or a differnt version, open up an issue and I will add it.
+- (https://github.com/stephenc01/php_docker_custom)
+- (https://hub.docker.com/_/php/)
